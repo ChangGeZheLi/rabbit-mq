@@ -6,3 +6,5 @@ spring:
     virtual-host: /sy
     username: root
     password: root
+    publisher-confirms: true
+    publisher-returns: true
