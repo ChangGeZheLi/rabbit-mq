@@ -13,6 +13,8 @@
         <module>rabbitmq_consumer</module>
         <module>spring-rabbitmq-conosumers</module>
         <module>spring-rabbitmq-producers</module>
+        <module>springboot-producers</module>
+        <module>springboot-consumers</module>
     </modules>
 
 

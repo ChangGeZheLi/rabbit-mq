@@ -1,0 +1,8 @@
+#rabbitmq≈‰÷√–≈œ¢
+spring:
+  rabbitmq:
+    host: 192.168.48.130
+    port: 5672
+    virtual-host: /sy
+    username: root
+    password: root
