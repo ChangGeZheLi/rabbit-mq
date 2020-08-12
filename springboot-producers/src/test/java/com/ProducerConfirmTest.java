@@ -95,6 +95,8 @@ public class ProducerConfirmTest {
             }
         });
 
-        rabbitTemplate.convertAndSend(RabbitMQConfirm.EXCHANGE_NAME,"confirm","ACK confirmed");
+        for (int i = 0; i < 10; i++) {
+            rabbitTemplate.convertAndSend(RabbitMQConfirm.EXCHANGE_NAME,"confirm","ACK confirmed");
+        }
     }
 }

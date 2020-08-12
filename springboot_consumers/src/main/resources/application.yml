@@ -8,3 +8,4 @@ spring:
     listener:
       simple:
         acknowledge-mode: manual
+        prefetch: 1
