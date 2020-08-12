@@ -1,4 +1,3 @@
-#rabbitmq≈‰÷√–≈œ¢
 spring:
   rabbitmq:
     host: 192.168.48.130
@@ -6,3 +5,6 @@ spring:
     virtual-host: /sy
     username: root
     password: root
+    listener:
+      simple:
+        acknowledge-mode: manual

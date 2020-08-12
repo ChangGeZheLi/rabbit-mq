@@ -104,7 +104,6 @@ under the License.
       <module filepath="$PROJECT_DIR$/spring-rabbitmq-conosumers/spring-rabbitmq-conosumers.iml"/>
       <module filepath="$PROJECT_DIR$/spring-rabbitmq-producers/spring-rabbitmq-producers.iml"/>
       <module filepath="$PROJECT_DIR$/springboot-producers/springboot-producers.iml"/>
-      <module filepath="$PROJECT_DIR$/springboot-consumers/springboot-consumers.iml"/>
     </modules> 
   </component>  
   <UsedPathMacros> 
