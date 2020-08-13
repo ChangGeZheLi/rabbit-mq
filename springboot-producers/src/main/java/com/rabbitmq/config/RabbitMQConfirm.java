@@ -41,5 +41,4 @@ public class RabbitMQConfirm{
     public Binding bindConfirm(@Qualifier("queueConfirm") Queue queue, @Qualifier("exchangeConfirm") Exchange exchange){
         return BindingBuilder.bind(queue).to(exchange).with("confirm").noargs();
     }
-
 }
